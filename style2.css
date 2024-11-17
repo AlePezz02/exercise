@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: red;
+    text-align: right;
+}
+
+body{
+    background-color: grey;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+#quinto {
+    background-color: beige;
+}
+
+.para {
+    font-size: 30px;
+}
+
+.parasecond{
+    font-size: large;
+    text-align: left;
+    background-color: brown;
+    color: goldenrod;
+    text-shadow: 20px red;
+    display: inline-block;
+    text-align: left;
+}
+
+.parathree{
+   
+}
+
+a {
+    color: green;
+}
+
+/*pseudo elementi*/
+a:hover{
+    color: red;
+}
+
+ul li {
+    color: yellow;
+    text-align: center;
+}
+
+ul li:last-child{
+    color: blue;
+}
+
+ul li:first-child {
+    color: red;
+}
+/*discendenza */
+ul li:nth-child(3) {           
+    color: gold;
+}
+
+p {
+ color: violet;
+}
+
+#parafor {
+    color: rgb(42, 165, 99);
+}
+
+.classing {
+    color: fuchsia;
+}
+
+div {
+    color: orangered;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    border: 50px;
+}
+
+p {
+    color: rgb(red, rgb(128, 47, 0), rgb(255, 42, 0));
+}
+
+ul li {
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px;
+    border: 45px;
+    margin: 10px;
+}
+
+span {
+    height: 20px;
+    width: 20px;
+    background-color: violet;
+    border: 3px;
+}
+
+.span1 {
+    display: inline;
+}
+.span2 {
+    display:inline-block
+}
+
+.span3 {
+    display: block;
+}
