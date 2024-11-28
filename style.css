@@ -1,0 +1,53 @@
+.para{
+    visibility: hiden;
+}
+.para2{
+    text-align: justify;
+    float: right;
+}
+.conteiner{
+    width: 100%;
+    overflow: hidden;
+}
+
+.text{
+    float: left;
+    width: 50%;
+}
+
+.img{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.img img{
+    width: 100%;
+
+}
+
+.para2{
+    clear: both;
+}
+
+.colum{
+    width: 33%;
+    float: left;
+}
+
+.navi{
+    position: fixed;
+}
+
+.conteiner-footer{
+    position: bottom;
+}
+
+.quadrato{
+    background-color: rgb(203, 18, 18);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
