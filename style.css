@@ -13,9 +13,10 @@
 }
 .sezione .navbar .botton {
   font-size: 18px;
-  text-decoration: non;
+  text-decoration: none;
   color: rgb(91, 145, 11);
   font-style: sans-serif;
+  text-decoration: none;
 }
 .sezione .navbar .botton:hover {
   color: #ff0000;
