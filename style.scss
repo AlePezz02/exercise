@@ -1,9 +1,15 @@
+$primary-color: rgb(13, 13, 13);
+$text-color: rgb(91, 145, 11);
+
+
+
+
 .sezione {
     width: 100%;
     margin: 0px;
     padding: 0px;
     .navbar{
-        background-color: rgb(13, 13, 13);
+        background-color: $primary-color;
         height: 4rem;
         display: grid;
         justify-content: space-evenly;
@@ -16,7 +22,7 @@
             }
             font-size: 18px;
             text-decoration: none;
-            color: rgb(91, 145, 11);
+            color: $text-color;
             font-style: sans-serif;
             text-decoration: none;
             }
