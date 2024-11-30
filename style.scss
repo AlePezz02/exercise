@@ -13,7 +13,6 @@
          .botton{
             &:hover{
                 color: #ff0000;
-                border-color: #ff0000;
             }
             font-size: 18px;
             text-decoration: none;
@@ -23,3 +22,22 @@
             }
         }
     }
+
+
+
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(45, 43, 43, 0.199);
+    border: #ff0000;
+    border-radius: 50px;
+    .div{
+        color: rgba(45, 43, 43, 0.199);
+        border: #ff0000;
+        border-radius: 50px;
+
+        
+    }
+
+
+}
