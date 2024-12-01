@@ -66,8 +66,7 @@ $text-size: 18px;
             display: grid;
             align-items: center;
                 .para2 {
-                    display: grid;
-                    align-items: center;
+                    @extend .para1;
                 }
     }
 }
