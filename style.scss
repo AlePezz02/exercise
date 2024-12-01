@@ -1,7 +1,5 @@
-$primary-color: rgb(4, 80, 138);
-$text-color: rgb(91, 145, 11);
-$text-size: 18px;
-
+@use "_tasto.scss";
+@import "_variabili.scss";
 
 
 
@@ -68,5 +66,12 @@ $text-size: 18px;
                 .para2 {
                     @extend .para1;
                 }
+    }
+}
+
+.conteiner-tasto {
+    background-color: tasto.$primary-color;
+    .tasto-prova {
+        background-color: tasto.$primary-color;
     }
 }
