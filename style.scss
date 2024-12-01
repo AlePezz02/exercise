@@ -1,4 +1,4 @@
-$primary-color: rgb(13, 13, 13);
+$primary-color: rgb(4, 80, 138);
 $text-color: rgb(91, 145, 11);
 
 
@@ -25,9 +25,17 @@ $text-color: rgb(91, 145, 11);
             color: $text-color;
             font-style: sans-serif;
             text-decoration: none;
-            }
+            
+        }       .botton:last-child {
+                    @extend .btn;
+                    border: solid 5px;
+                    border-color: #333333;
+                    
         }
+        
     }
+    
+}
 
 
 
@@ -37,13 +45,8 @@ $text-color: rgb(91, 145, 11);
     background-color: rgba(45, 43, 43, 0.199);
     border: #ff0000;
     border-radius: 50px;
-    .div{
-        color: rgba(45, 43, 43, 0.199);
-        border: #ff0000;
-        border-radius: 50px;
+}
 
-        
-    }
-
-
+.btn {
+    background-color: #e7e7e7;
 }
