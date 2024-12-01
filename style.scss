@@ -1,5 +1,6 @@
 $primary-color: rgb(4, 80, 138);
 $text-color: rgb(91, 145, 11);
+$text-size: 18px;
 
 
 
@@ -20,7 +21,7 @@ $text-color: rgb(91, 145, 11);
             &:hover{
                 color: #ff0000;
             }
-            font-size: 18px;
+            font-size: $text-size;
             text-decoration: none;
             color: $text-color;
             font-style: sans-serif;
@@ -49,4 +50,24 @@ $text-color: rgb(91, 145, 11);
 
 .btn {
     background-color: #e7e7e7;
+}
+
+.conteiner-1 {
+    display: grid;
+    justify-content:space-evenly ;
+    grid-template-rows: 33vw 66vw;
+    height: 0;
+    font-size: $text-size;
+
+    .conteiner-2 {
+        @extend .conteiner-1
+    }
+        .para1 {
+            display: grid;
+            align-items: center;
+                .para2 {
+                    display: grid;
+                    align-items: center;
+                }
+    }
 }
