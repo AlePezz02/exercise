@@ -75,3 +75,40 @@
         background-color: tasto.$primary-color;
     }
 }
+
+
+
+@mixin theme-navbar($theme) {
+    @if $theme == light {
+      background-color: #ffffff;
+      color: #000000;
+  
+      .menu-item {
+        color: #000000;
+        
+        &:hover {
+          color: #ffcc00; 
+        }
+      }
+    } @else if $theme == dark {
+      background-color: #000000;
+      color: #ffffff;
+  
+      .menu-item {
+        color: #ffffff;
+        
+        &:hover {
+          color: #ffcc00; 
+        }
+      }
+    }
+  }
+  
+ 
+  .navbar {
+    @include theme-navbar(light);
+  
+    &.dark-theme {
+      @include theme-navbar(dark);
+    }
+  }
