@@ -112,3 +112,7 @@
       @include theme-navbar(dark);
     }
   }
+
+  @function px-to-em($px-size, $base-size: 16px) {
+    @return $px-size / $base-size * 1em;
+  }
