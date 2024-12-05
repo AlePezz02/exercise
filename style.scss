@@ -116,3 +116,15 @@
   @function px-to-em($px-size, $base-size: 16px) {
     @return $px-size / $base-size * 1em;
   }
+
+  .navbar {
+    .menu-item {
+      color: #000000;
+  
+      &:hover {
+        @if $noHover == false {
+          color: #ffcc00; 
+        }
+      }
+    }
+  }
